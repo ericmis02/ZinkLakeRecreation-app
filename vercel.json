@@ -1,5 +1,5 @@
 {
-    "buildCommand": "expo build:web",
-    "outputDirectory": "dist",
-    "framework": "other"
+    "buildCommand": "npm run web-build",
+    "outputDirectory": "web-build",
+    "framework": "create-react-app"
   }
