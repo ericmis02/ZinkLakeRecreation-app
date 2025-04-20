@@ -100,7 +100,7 @@ export default function App() {
           
           <TouchableOpacity style={styles.menuItem} onPress={() => {
             setMenuVisible(false);
-            router.push('/profile');
+            router.push('/contact');
           }}>
             <Text style={styles.menuText}>Contact Staff</Text>
           </TouchableOpacity>
